@@ -1,0 +1,61 @@
+﻿@page
+@model Web_App_Patient.Pages.Patients.IndexModel
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Patient List</h2>
+        </div>
+        <div class="col-6">
+            <a asp-page="create" class="btn btn-primary">
+                Create New Patient
+            </a>
+        </div>
+    </div>
+
+    <br /><br />
+
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Address
+                </th>
+                <th>
+                    City
+                </th>
+                <th>
+                    State
+                </th>
+                <th>
+                    Zip Code
+                </th>
+                <th>
+                    Admit To
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var obj in Model.Patients)
+            {
+                <tr>
+                    <td>@obj.LastName</td>
+                    <td>@obj.FirstName</td>
+                    <td>@obj.Address</td>
+                    <td>@obj.City</td>
+                    <td>@obj.State</td>
+                    <td>@obj.ZipCode</td>
+                    <td>@obj.AdmitTo</td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+
+</div>

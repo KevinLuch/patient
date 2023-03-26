@@ -1,0 +1,41 @@
+﻿@page
+@model Web_App_Patient.Pages.Patients.CreateModel
+
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary pl-3">Create Patient</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.LastName"></label>
+            <input asp-for="Patient.LastName" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.FirstName"></label>
+            <input asp-for="Patient.FirstName" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.Address"></label>
+            <input asp-for="Patient.Address" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.City"></label>
+            <input asp-for="Patient.City" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.State"></label>
+            <input asp-for="Patient.State" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.ZipCode"></label>
+            <input asp-for="Patient.ZipCode" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Patient.AdmitTo"></label>
+            <input asp-for="Patient.AdmitTo" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px;">Create</button>
+    </div>
+</form>
