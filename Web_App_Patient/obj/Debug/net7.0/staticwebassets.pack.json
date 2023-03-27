@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Web_App_Patient.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\mfkev\\OneDrive\\Desktop\\Web_App_Patient\\Web_App_Patient\\wwwroot\\css\\bootsWatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\bootsWatchTheme.css"
+    },
+    {
       "Id": "C:\\Users\\mfkev\\OneDrive\\Desktop\\Web_App_Patient\\Web_App_Patient\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

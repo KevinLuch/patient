@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R7+8kbnZ5ULXMf76m+TF6G25rZPuFzdOKtqIeYQfLzA=",
+  "Hash": "k9tJJo/KH4lXQsK/uiOrzGzs6PbcLPUA9d23q8JAfOA=",
   "Source": "Web_App_Patient",
   "BasePath": "_content/Web_App_Patient",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mfkev\\OneDrive\\Desktop\\Web_App_Patient\\Web_App_Patient\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Web_App_Patient.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\mfkev\\OneDrive\\Desktop\\Web_App_Patient\\Web_App_Patient\\wwwroot\\css\\bootsWatchTheme.css",
+      "SourceId": "Web_App_Patient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mfkev\\OneDrive\\Desktop\\Web_App_Patient\\Web_App_Patient\\wwwroot\\",
+      "BasePath": "_content/Web_App_Patient",
+      "RelativePath": "css/bootsWatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootsWatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\mfkev\\OneDrive\\Desktop\\Web_App_Patient\\Web_App_Patient\\wwwroot\\css\\site.css",
